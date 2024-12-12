@@ -3,13 +3,11 @@ import * as fs from 'fs'
 const filePath = 'input_files/inputDay09.txt'
 
 function solution1(): number {
-  let numberOfSafeLevels = 0
-  return numberOfSafeLevels
+  return 0
 }
 
 function solution2(): number {
-  let numberOfSafeLevels = 0
-  return numberOfSafeLevels
+  return 0
 }
 
 export async function solveDay9() {

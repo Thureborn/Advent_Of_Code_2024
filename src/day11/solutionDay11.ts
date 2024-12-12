@@ -3,16 +3,14 @@ import * as fs from 'fs'
 const filePath = 'input_files/inputDay11.txt'
 
 function solution1(): number {
-  let numberOfSafeLevels = 0
-  return numberOfSafeLevels
+  return 0
 }
 
 function solution2(): number {
-  let numberOfSafeLevels = 0
-  return numberOfSafeLevels
+  return 0
 }
 
-async function solveDay11() {
+export async function solveDay11() {
 
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
@@ -23,5 +21,3 @@ async function solveDay11() {
     console.log('Answer to question #1: ' + solution1() + ' Answer to question #2: ' + solution2())
   });
 }
-
-solveDay11()

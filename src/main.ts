@@ -8,6 +8,11 @@ import { solveDay7 } from "./day07/solutionDay07.js"
 import { solveDay8 } from "./day08/solutionDay08.js"
 import { solveDay9 } from "./day09/solutionDay09.js"
 import { solveDay10 } from "./day10/solutionDay10.js"
+import { solveDay11 } from "./day11/solutionDay11.js"
+import { solveDay12 } from "./day12/solutionDay12.js"
+import { solveDay13 } from "./day13/solutionDay13.js"
+import { solveDay14 } from "./day14/solutionDay14.js"
+import { solveDay15 } from "./day15/solutionDay15.js"
 
 function main(): void {
   // solveDay1()
@@ -17,7 +22,13 @@ function main(): void {
   // solveDay5()
   // solveDay6()
   // solveDay7()
-  solveDay10()
+  // solveDay9()
+  // solveDay10()
+  // solveDay11()
+  // solveDay12()
+  // solveDay13()
+  // solveDay14()
+  // solveDay15()
 }
 
 main()
