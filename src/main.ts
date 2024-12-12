@@ -24,7 +24,7 @@ function main(): void {
   // solveDay7()
   // solveDay9()
   // solveDay10()
-  // solveDay11()
+  solveDay11()
   // solveDay12()
   // solveDay13()
   // solveDay14()
