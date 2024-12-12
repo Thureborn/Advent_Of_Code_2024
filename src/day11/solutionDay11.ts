@@ -53,7 +53,6 @@ function solution2(stones: number[], blinks: number): number {
         const stone2 = Number(stoneToSplit.slice(stoneToSplit.length / 2))
         addStones(newStoneMap, stone1, ammount)
         addStones(newStoneMap, stone2, ammount)
-
       }
       else {
         addStones(newStoneMap, stone * 2024, ammount)
