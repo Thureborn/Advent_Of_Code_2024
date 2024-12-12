@@ -12,7 +12,7 @@ function solution2(): number {
   return numberOfSafeLevels
 }
 
-async function solveDay9() {
+export async function solveDay9() {
 
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
@@ -23,5 +23,3 @@ async function solveDay9() {
     console.log('Answer to question #1: ' + solution1() + ' Answer to question #2: ' + solution2())
   });
 }
-
-solveDay9()

@@ -6,6 +6,8 @@ import { solveDay2 } from "./day02/solutionDay02.js"
 import { solveDay1 } from "./day01/solutionDay01.js"
 import { solveDay7 } from "./day07/solutionDay07.js"
 import { solveDay8 } from "./day08/solutionDay08.js"
+import { solveDay9 } from "./day09/solutionDay09.js"
+import { solveDay10 } from "./day10/solutionDay10.js"
 
 function main(): void {
   // solveDay1()
@@ -15,7 +17,7 @@ function main(): void {
   // solveDay5()
   // solveDay6()
   // solveDay7()
-  solveDay8()
+  solveDay10()
 }
 
 main()
